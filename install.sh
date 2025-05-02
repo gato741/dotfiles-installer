@@ -34,6 +34,6 @@ sudo make clean install
 cd $HOME
 
 git clone https://github.com/gato741/dotfiles
-mv $HOME/dotfiles/backgrounds ~
-mv $HOME/dotfiles/.vimrc ~
-mv $HOME/dotfiles/.xinitrc ~
+mv $HOME/dotfiles/backgrounds $HOME
+mv $HOME/dotfiles/configs/.vimrc $HOME
+mv $HOME/dotfiles/configs/.xinitrc $HOME
